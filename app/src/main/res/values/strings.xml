@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">BD Kotlin</string>
+
+    <!-- Label for overflow menu option that deletes all books data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">No books here...</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new">Add a Book</string>
+
+    <!-- Title for the activity to edit an existing book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit">Edit Book</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_failed">Error while saving book</string>
+
+    <!-- Toast message in editor when current book was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_successful">Book updated</string>
+
+    <!-- Toast message in editor when current book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_failed">Error while updating book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_failed">Error while deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for name category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_title">Title</string>
+
+    <!-- Label for  author category in the editor [CHAR LIMIT=30] -->
+    <string name="category_author">Author</string>
+
+    <!-- Label for type category in the editor [CHAR LIMIT=30] -->
+    <string name="category_type">Type</string>
+
+    <!-- Text hint for title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_title">Title</string>
+
+    <!-- Text hint for author field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_author">Author</string>
+
+    <!-- Label for dropdown menu option if the book is unknown [CHAR LIMIT=20] -->
+    <string name="type_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the book is a novel [CHAR LIMIT=20] -->
+    <string name="type_novel">Novel</string>
+
+    <!-- Label for dropdown menu option if the book is poetry [CHAR LIMIT=20] -->
+    <string name="type_poetry">Poetry</string>
+</resources>
